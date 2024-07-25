@@ -3,7 +3,7 @@ import bg from "../assets/images/slider-bg.svg";
 
 const SecondContactForm = () => {
   return (
-    <section className=" bg-primary md:py-16 py-10  text-white">
+    <section id="contact" className=" bg-primary md:py-16 py-10  text-white">
       <Continer>
         <div className="relative">
           <h1 className="font-semibold md:text-5xl text-3xl text-center">

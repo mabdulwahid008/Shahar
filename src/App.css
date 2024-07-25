@@ -1,6 +1,9 @@
 body {
   color: #2d343a;
 }
+html {
+  scroll-behavior: smooth;
+}
 .box_shadow {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
