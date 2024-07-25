@@ -10,7 +10,7 @@ import call from "../assets/images/call.svg";
 
 const Footer = () => {
   return (
-    <footer className="md:py-16 py-10">
+    <footer className="md:py-16 sm:py-10 pt-10 pb-32">
       <Continer>
         <div>
           <div className="grid md:grid-cols-2 grid-cols-1">
