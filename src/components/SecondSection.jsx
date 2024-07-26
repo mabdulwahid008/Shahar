@@ -19,7 +19,7 @@ const SecondSection = () => {
             </div>
             {/* render slider contents start */}
             <div className="md:py-8 py-4 w-full mx-auto h-full relative z-50 mt-6 md:mt-0">
-              <div className=" flex-wrap justify-center items-stretch flex sm:gap-x-2.5 sm:gap-y-5 gap-2 ">
+              <div className=" flex-wrap justify-center items-stretch flex sm:gap-x-2.5 sm:gap-y-5 gap-2">
                 {SliderData.map((item, index) => (
                
                   <SingleSlider

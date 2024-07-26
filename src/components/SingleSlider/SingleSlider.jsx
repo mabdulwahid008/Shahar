@@ -4,10 +4,10 @@ const SingleSlider = ({ title, description, imageUrl, index }) => {
   const blueIndex = [0, 3,4, 7,8, 11, 12]
   return (
     <>
-      <div className={`w-[48%] sm:w-1/2 lg:w-[32.7%] sm:min-h-[250px] item text-right p-6 sm:px-10 md:px-6 sm:flex-col sm:items-start rounded-xl mb-2 md:mb-0 py-1 h-[60px] flex justify-center items-center  px-1 
+      <div className={`w-[48%] sm:w-1/3 lg:w-[24.3%] sm:min-h-[250px] item text-right p-6 sm:px-10 md:px-6 sm:flex-col sm:items-start rounded-xl mb-2 md:mb-0 py-1 h-[60px] flex justify-center items-center  px-1 
         ${window.innerWidth < 768 ?  (blueIndex.some(i => i == index) ? "lading_even_item" : "lading_odd_item") : (index % 2 === 0 ? "lading_even_item" : "lading_odd_item")}
         `}>
-        <div className="sm:flex hidden w-12 h-12 img_wrapper relative mb-2">
+        <div className="sm:flex hidden w-12 h-12 img_wrapper relative mb-2 bg-white rounded-full">
           <img
             src={imageUrl}
             alt=""

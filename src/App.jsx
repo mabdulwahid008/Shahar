@@ -28,9 +28,9 @@ function App() {
       <AboutUs />
       <Testimonials />
       <HowWeDo />
-      <SecondContactForm />
       <Faqs />
-      <ThirdContactForm />
+      <SecondContactForm />
+      {/* <ThirdContactForm /> */}
       <Footer />
       <StickyFooter />
     </>

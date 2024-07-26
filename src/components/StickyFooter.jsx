@@ -34,7 +34,7 @@ function StickyFooter() {
                 </a>
             </div>
 
-            <div className='sm:flex fixed hidden bottom-8 right-8'>
+            <div className='sm:flex fixed hidden bottom-8 right-8 z-50'>
 
                 <div className={`absolute bottom-20 right-1 ${opened ? "h-auto" : "h-0 overflow-hidden"}   transition-all ease-in duration-150 flex flex-col gap-3 justify-center items-center`}>
                     <a href="https://wa.me/972508385858" className=' drop-shadow-2xl'>
