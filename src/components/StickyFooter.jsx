@@ -4,7 +4,7 @@ function StickyFooter() {
     const [opened, setOpened] = useState(false)
     return (
         <>
-            <div className='sm:hidden flex flex-row-reverse justify-around items-center fixed bg-primary z-50 w-full pb-1 pt-4 bottom-0 left-0'>
+            <div className='sm:hidden flex flex-row-reverse justify-around items-center fixed bg-[#212121] z-50 w-full pb-1 pt-4 bottom-0 left-0'>
                 <a href="https://wa.me/972508385858" className='flex justify-center items-center flex-col gap-1'>
                     <svg width="25" height="25" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_39_311)">
@@ -18,19 +18,19 @@ function StickyFooter() {
                             </clipPath>
                         </defs>
                     </svg>
-                    <p className='text-white text-sm font-normal'>ווטסאפ</p>
+                    <p className='text-darkgold text-sm font-normal'>ווטסאפ</p>
                 </a>
                 <a href="tel:972508385858" className='flex justify-center items-center flex-col gap-1'>
                     <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M17.5 13.8805C17.5 14.1865 17.4319 14.501 17.2872 14.807C17.1425 15.113 16.9552 15.402 16.7083 15.674C16.2912 16.133 15.8315 16.4645 15.3122 16.677C14.8015 16.8895 14.2481 17 13.6522 17C12.7839 17 11.856 16.796 10.8771 16.3795C9.8981 15.963 8.91913 15.402 7.94867 14.6965C6.9697 13.9825 6.04181 13.192 5.15648 12.3165C4.27967 11.4325 3.48798 10.506 2.78142 9.537C2.08337 8.568 1.52153 7.599 1.11292 6.6385C0.704306 5.6695 0.5 4.743 0.5 3.859C0.5 3.281 0.602153 2.7285 0.80646 2.2185C1.01077 1.7 1.33425 1.224 1.78543 0.799C2.33025 0.2635 2.92614 0 3.55608 0C3.79444 0 4.0328 0.0510001 4.24562 0.153C4.46695 0.255 4.66274 0.408 4.81597 0.629L6.79094 3.4085C6.94417 3.621 7.05483 3.8165 7.13145 4.0035C7.20806 4.182 7.25063 4.3605 7.25063 4.522C7.25063 4.726 7.19104 4.93 7.07186 5.1255C6.96119 5.321 6.79945 5.525 6.59514 5.729L5.94817 6.4005C5.85453 6.494 5.81197 6.6045 5.81197 6.7405C5.81197 6.8085 5.82048 6.868 5.83751 6.936C5.86305 7.004 5.88858 7.055 5.90561 7.106C6.05884 7.3865 6.32273 7.752 6.6973 8.194C7.08037 8.636 7.48898 9.0865 7.93165 9.537C8.39134 9.9875 8.834 10.404 9.28518 10.7865C9.72784 11.1605 10.0939 11.4155 10.3833 11.5685C10.4259 11.5855 10.477 11.611 10.5366 11.6365C10.6047 11.662 10.6728 11.6705 10.7494 11.6705C10.8941 11.6705 11.0048 11.6195 11.0984 11.526L11.7454 10.8885C11.9582 10.676 12.1625 10.5145 12.3583 10.4125C12.5541 10.2935 12.7499 10.234 12.9627 10.234C13.1244 10.234 13.2947 10.268 13.482 10.3445C13.6693 10.421 13.865 10.5315 14.0779 10.676L16.8956 12.6735C17.1169 12.8265 17.2702 13.005 17.3638 13.2175C17.4489 13.43 17.5 13.6425 17.5 13.8805Z" fill="white" />
                     </svg>
-                    <p className='text-white text-sm font-normal'>טלפון</p>
+                    <p className='text-darkgold text-sm font-normal'>טלפון</p>
                 </a>
                 <a href="#contact" className='flex justify-center items-center flex-col gap-1'>
                     <svg width="18" height="17" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M15 0.5H5C2 0.5 0 2 0 5.5V12.5C0 16 2 17.5 5 17.5H15C18 17.5 20 16 20 12.5V5.5C20 2 18 0.5 15 0.5ZM15.47 6.59L12.34 9.09C11.68 9.62 10.84 9.88 10 9.88C9.16 9.88 8.31 9.62 7.66 9.09L4.53 6.59C4.21 6.33 4.16 5.85 4.41 5.53C4.67 5.21 5.14 5.15 5.46 5.41L8.59 7.91C9.35 8.52 10.64 8.52 11.4 7.91L14.53 5.41C14.85 5.15 15.33 5.2 15.58 5.53C15.84 5.85 15.79 6.33 15.47 6.59Z" fill="white" />
                     </svg>
-                    <p className='text-white text-sm font-normal'>צור קשר</p>
+                    <p className='text-darkgold text-sm font-normal'>צור קשר</p>
                 </a>
             </div>
 
