@@ -23,14 +23,11 @@ function App() {
       <Header />
       <Hero />
       <SecondSection />
-      {/* <MobileSlider /> */}
-      <ContactForm />
       <AboutUs />
       <Testimonials />
       <HowWeDo />
       <Faqs />
       <SecondContactForm />
-      {/* <ThirdContactForm /> */}
       <Footer />
       <StickyFooter />
     </>
